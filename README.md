@@ -34,7 +34,7 @@ The `fraud_detection.py` script contains functions for:
 
 1. Clone the repository:
    ```
-   git clone <repository-url>
+   git clone https://github.com/Nenchin/fraud_detection_sagemaker.git
    cd fraud-detection-sagemaker
    ```
 
