@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "fraud detection"
+version = "0.1.0"
+description = "Credit Direct Limited's Fraud Detection Algorithm on SagaMaker"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.14"
+numpy = "1.26.4"
+pandas = "2.2.2"
+seaborn = "^0.13.2"
+boto3 = "^1.38.1"
+sagemaker = "^2.243.3"
+awswrangler = "^3.11.0"
+openpyxl = "^3.1.5"
+scikit-learn = "^1.6.1"
+plotly = "^6.0.1"
+nbformat = "^5.10.4"
+
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

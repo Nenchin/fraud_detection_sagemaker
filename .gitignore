@@ -1,7 +1,14 @@
+# large files
+data/
+sagemaker-tutorial/
+notebooks/test_set.csv
+notebooks/train_set.csv
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+.DS_Store
 
 # C extensions
 *.so
